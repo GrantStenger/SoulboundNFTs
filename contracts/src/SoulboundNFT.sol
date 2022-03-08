@@ -8,27 +8,27 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/utils/Context.sol";
 
 contract SoulboundNFT is ISoulboundNFT, Context {
-
-	using Address for address;
+    
+    using Address for address;
     using Strings for uint256;
-
-	// Token name
-	string private _name;
-
-	// Token symbol
-	string private _symbol;
-
-	// Mapping from token ID to owner address
-	mapping(uint256 => address) private _owners;
-
-	/**
-	* @dev Initializes the contract by setting a `name` and a `symbol` to the token collection.
-	*/
-	constructor(string memory name_, string memory symbol_) {
-		_name = name_;
-		_symbol = symbol_;
-	}
-
+    
+    // Token name
+    string private _name;
+    
+    // Token symbol
+    string private _symbol;
+    
+    // Mapping from token ID to owner address
+    mapping(uint256 => address) private _owners;
+    
+    /**
+    * @dev Initializes the contract by setting a `name` and a `symbol` to the token collection.
+    */
+    constructor(string memory name_, string memory symbol_) {
+        _name = name_;
+        _symbol = symbol_;
+    }
+    
     /**
      * @dev See {ISoulboundNFT-ownerOf}.
      */
