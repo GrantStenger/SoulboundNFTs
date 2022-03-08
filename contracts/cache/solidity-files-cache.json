@@ -1,0 +1,321 @@
+{
+  "_format": "ethers-rs-sol-cache-2",
+  "files": {
+    "/Users/gstenger/projects/SoulboundNFTs/contracts/lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1646766991636,
+      "contentHash": "5d45a46528eaf8a26f0a8d93669f3148",
+      "sourceName": "lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.23",
+      "artifacts": {
+        "DSTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "test.sol/DSTest.json"
+        }
+      }
+    },
+    "/Users/gstenger/projects/SoulboundNFTs/contracts/lib/openzeppelin-contracts/contracts/utils/Address.sol": {
+      "lastModificationDate": 1646769163474,
+      "contentHash": "ad714a6368ee7d43cded6bbe8af0b155",
+      "sourceName": "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.1",
+      "artifacts": {
+        "Address": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Address.sol/Address.json"
+        }
+      }
+    },
+    "/Users/gstenger/projects/SoulboundNFTs/contracts/lib/openzeppelin-contracts/contracts/utils/Context.sol": {
+      "lastModificationDate": 1646769163475,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Context": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Context.sol/Context.json"
+        }
+      }
+    },
+    "/Users/gstenger/projects/SoulboundNFTs/contracts/lib/openzeppelin-contracts/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1646769163477,
+      "contentHash": "9c54c6c065d9e590fdcdd72c451425b9",
+      "sourceName": "lib/openzeppelin-contracts/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Strings": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Strings.sol/Strings.json"
+        }
+      }
+    },
+    "/Users/gstenger/projects/SoulboundNFTs/contracts/src/ISoulboundNFT.sol": {
+      "lastModificationDate": 1646769689707,
+      "contentHash": "444233e951fedea38bd865d4ec8ee3f2",
+      "sourceName": "src/ISoulboundNFT.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ISoulboundNFT": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "ISoulboundNFT.sol/ISoulboundNFT.json"
+        }
+      }
+    },
+    "/Users/gstenger/projects/SoulboundNFTs/contracts/src/ISoulboundNFTMetadata.sol": {
+      "lastModificationDate": 1646769717290,
+      "contentHash": "db64e8137f5942a2b8ea70ce2f6b2fe8",
+      "sourceName": "src/ISoulboundNFTMetadata.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "src/ISoulboundNFT.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ISoulboundNFTMetadata": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "ISoulboundNFTMetadata.sol/ISoulboundNFTMetadata.json"
+        }
+      }
+    },
+    "/Users/gstenger/projects/SoulboundNFTs/contracts/src/ISoulboundNFTReceiver.sol": {
+      "lastModificationDate": 1646769967074,
+      "contentHash": "cd4117ecfc86dfb778ab25ab7e3754c7",
+      "sourceName": "src/ISoulboundNFTReceiver.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ISoulboundReceiver": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "ISoulboundNFTReceiver.sol/ISoulboundReceiver.json"
+        }
+      }
+    },
+    "/Users/gstenger/projects/SoulboundNFTs/contracts/src/SoulboundNFT.sol": {
+      "lastModificationDate": 1646770295909,
+      "contentHash": "9bc8beaa27a58ad4bde0e4e86b120c15",
+      "sourceName": "src/SoulboundNFT.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Strings.sol",
+        "src/ISoulboundNFT.sol",
+        "src/ISoulboundNFTReceiver.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "SoulboundNFT": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "SoulboundNFT.sol/SoulboundNFT.json"
+        }
+      }
+    },
+    "/Users/gstenger/projects/SoulboundNFTs/contracts/src/test/SoulboundNFT.t.sol": {
+      "lastModificationDate": 1646770435365,
+      "contentHash": "7016738fe305fd90c36ea69a5cb2a78c",
+      "sourceName": "src/test/SoulboundNFT.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "ContractTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "SoulboundNFT.t.sol/ContractTest.json"
+        }
+      }
+    }
+  }
+}
